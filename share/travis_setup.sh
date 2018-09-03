@@ -1,9 +1,9 @@
 #!/bin/bash
 set -evx
 
-mkdir ~/.dashcore
+mkdir ~/.geekcash
 
 # safety check
-if [ ! -f ~/.dashcore/.dash.conf ]; then
-  cp share/dash.conf.example ~/.dashcore/dash.conf
+if [ ! -f ~/.geekcash/.geekcash.conf ]; then
+  cp share/geekcash.conf.example ~/.geekcash/geekcash.conf
 fi
