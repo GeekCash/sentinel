@@ -23,7 +23,7 @@ Update system packages and ensure virtualenv is installed:
     $ sudo apt-get update
     $ sudo apt-get -y install python-virtualenv
 
-Make sure the local GeekCash daemon running is at least version 12.1 (120100)
+Make sure the local GeekCash daemon running is at least version 1.0.1.2 (1000102)
 
     $ geekcash-cli getinfo | grep version
 
