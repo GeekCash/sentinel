@@ -49,7 +49,7 @@ In the crontab editor, add the lines below, replacing '/home/YOURUSERNAME/sentin
 
 At this point, running
 
-venv/bin/python bin/sentinel.py
+    $ venv/bin/python bin/sentinel.py
 
 should return nothing but silence.  This is how you know it's working.
 
