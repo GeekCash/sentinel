@@ -67,7 +67,7 @@ To view debug output, set the `SENTINEL_DEBUG` environment variable to anything 
 
 ## Contributing
 
-Please follow the [geekcashCore guidelines for contributing](https://github.com/geekcash/geekcash/blob/master/CONTRIBUTING.md).
+Please follow the [GeekCash guidelines for contributing](https://github.com/geekcash/geekcash/blob/master/CONTRIBUTING.md).
 
 Specifically:
 
@@ -85,4 +85,4 @@ Specifically:
 
 ### License
 
-Released under the MIT license, under the same terms as geekcashCore itself. See [LICENSE](LICENSE) for more info.
+Released under the MIT license, under the same terms as GeekCash itself. See [LICENSE](LICENSE) for more info.

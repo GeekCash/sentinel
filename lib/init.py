@@ -95,7 +95,7 @@ def main():
         sys.exit(1)
 
     if not has_geekcash_conf():
-        print("geekcashCore must be installed and configured, including JSONRPC access in geekcash.conf")
+        print("GeekCash must be installed and configured, including JSONRPC access in geekcash.conf")
         sys.exit(1)
 
 
