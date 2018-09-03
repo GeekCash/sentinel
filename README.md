@@ -45,11 +45,13 @@ In the crontab editor, add the lines below, replacing '/home/YOURUSERNAME/sentin
 
     * * * * * cd /home/YOURUSERNAME/sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
 
-### 4. Test the Configuration
+### 4. Test the sentinel
 
-Test the config by running all tests from the sentinel folder you cloned into
+At this point, running
 
-    $ ./venv/bin/py.test ./test
+venv/bin/python bin/sentinel.py
+
+should return nothing but silence.  This is how you know it's working.
 
 With all tests passing and crontab setup, Sentinel will stay in sync with geekcashd and the installation is complete
 
